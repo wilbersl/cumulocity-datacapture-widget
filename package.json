@@ -30,7 +30,6 @@
     "@c8y/ngx-components": "1021.62.8",
     "@c8y/style": "1021.62.8",
     "cumulocity-datacapture-widget": "file:",
-    "datacapture-widget": "file:",
     "ngx-bootstrap": "18.0.0",
     "rxjs": "^7.8.1",
     "tslib": "^2.3.0",

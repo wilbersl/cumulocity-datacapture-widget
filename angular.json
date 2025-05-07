@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "datacapture-widget": {
+    "cumulocity-datacapture-widget": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@c8y/devkit:build",
           "options": {
-            "outputPath": "dist/datacapture-widget",
+            "outputPath": "dist/cumulocity-datacapture-widget",
             "polyfills": [
               "zone.js"
             ],
@@ -80,10 +80,10 @@
           "builder": "@c8y/devkit:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "datacapture-widget:build:production"
+              "buildTarget": "cumulocity-datacapture-widget:build:production"
             },
             "development": {
-              "buildTarget": "datacapture-widget:build:development"
+              "buildTarget": "cumulocity-datacapture-widget:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -117,10 +117,10 @@
           "builder": "@c8y/devkit:deploy",
           "configurations": {
             "production": {
-              "buildTarget": "datacapture-widget:build:production"
+              "buildTarget": "cumulocity-datacapture-widget:build:production"
             },
             "development": {
-              "buildTarget": "datacapture-widget:build:development"
+              "buildTarget": "cumulocity-datacapture-widget:build:development"
             }
           },
           "defaultConfiguration": "production"
