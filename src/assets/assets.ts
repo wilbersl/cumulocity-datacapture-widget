@@ -8,9 +8,7 @@
  */
 import previewImage from './widget-datacapture-pr.png';
 
-// this will be a global style -> try to avoid as it could break existing styles
-// better use component based styling (see ../widget/widget-plugin.component.css)
-import './example.css';
-
 // paths can be shared via this module if needed
 export const assetPaths = { previewImage };
+
+import './example.css';

@@ -53,7 +53,7 @@ export class DataCaptureWidgetComponent implements OnInit {
       time: time,
     };
     if (this.config.addAudit) {
-      m.user = this.user;
+      m['user'] = this.user;
     }
     const series = this.config.datapoints[index].series;
     const fragment = {};

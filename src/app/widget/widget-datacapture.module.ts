@@ -1,5 +1,5 @@
 // Assets need to be imported into the module, or they are not available
-import { assetPaths } from "../assets/assets";
+import { assetPaths } from "../../assets/assets";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { DataCaptureWidgetComponent } from "./widget-datacapture.component";
@@ -13,7 +13,6 @@ import { TranslateModule } from "@ngx-translate/core";
 
 @NgModule({
   declarations: [DataCaptureWidgetComponent, DataCaptureWidgetConfig],
-  entryComponents: [DataCaptureWidgetComponent, DataCaptureWidgetConfig],
   imports: [
     CommonModule,
     FormsModule,
